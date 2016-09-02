@@ -1,179 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>个人简历</title>
-    <link charset="utf-8" type="text/css" rel="stylesheet" href="css/reset.min.css"/>
-    <link charset="utf-8" type="text/css" rel="stylesheet" href="css/swiper.min.css"/>
-    <link charset="utf-8" type="text/css" rel="stylesheet" href="css/index.css"/>
+    <link charset="UTF-8" rel="stylesheet" href="css/animate.css">
+    <link charset="UTF-8" rel="stylesheet" href="css/swiper.min.css">
+    <link charset="UTF-8" rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<section class="music" id="music">
-    <audio id="musicAudio" preload="none" loop src="aud/Village%20Green.mp3"/>
-</section>
 <section class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide page1">
-            <div class="name">求职简历</div>
+        <div class="swiper-slide pageFir" trueId="page1">
+            <div class="resume">
+                <span>PERSONAL RESUME</span>
+                <span>个人简历</span>
+            </div>
+            <div class="logo"></div>
+            <h3 class="job_direction" style="color: black">求职前端工程师</h3>
+            <div class="title">
+                <p style="color: black">Yes &nbsp;&nbsp;I believe&nbsp; I can</p>
+            </div>
 
-            <img src="img/hui.jpg"/>
+        </div>
+        <div class="swiper-slide pageTwo" trueId="page2">
+            <div class="white_back">
+                <h2 class="basic">基本信息</h2>
+                <ul class="basic_ul">
+                    <li>
+                        <span>姓名：</span>
+                        <span>惠宝同</span>
+                    </li>
+                    <li>
+                        <span>民族：</span>
+                        <span>汉</span>
+                    </li>
+                    <li>
+                        <span>籍贯：</span>
+                        <span>陕西榆林</span>
+                    </li>
+                    <li>
+                        <span>生日：</span>
+                        <span>1990.07.01</span>
+                    </li>
+                
+                    <li>
+                        <span>学历：</span>
+                        <span>本科</span>
+                    </li>
+                    <li>
+                        <span>毕业院校：</span>
+                        <span>榆林学院</span>
+                    </li>
+                    <li>
+                        <span>爱好：</span>
+                        <span>互联网、足球、音乐、爬山</span>
+                    </li>
+                </ul>
 
-            <div class="des">
-                <p>HI</p>
-
-                <p>我是惠宝同</p>
-
-                <p>正在寻找一份</p>
-
-                <p>前端工程师的工作</p>
             </div>
         </div>
-        <div class="swiper-slide page2">
-            <img src="img/yezi.png" class="one"/>
-            <img src="img/yezi.png" class="two"/>
-            <img src="img/yezi.png" class="tre"/>
-            <img src="img/yezi.png" class="for"/>
-            <ul class="classify clear">
-                <li class="bg">
-                    <span>基本</span>
-                    <span>信息</span>
+        <div class="swiper-slide pageThr" trueId="page3">
+            <h2 class="skills">专业技能</h2>
+            <ul>
+                <li class="skill_list ">
+                    <div class="child_left skill_list1"><img src="img/skill1.png"/></div>
+                    <p class="child_right1">原生移动App开发</p>
                 </li>
-                <li>
-                    <span>专业</span>
-                    <span>技能</span>
+                <li class="skill_list ">
+                    <div class="child_left skill_list2"><img src="img/skill2.png"/></div>
+                    <p class="child_right2">微信公众平台开发</p>
                 </li>
-                <li>
-                    <span>兴趣</span>
-                    <span>爱好</span>
+                <li class="skill_list ">
+                    <div class="child_left skill_list3"><img src="img/skill3.png"/></div>
+                    <p class="child_right3">HTML5+CSS3应用</p>
                 </li>
-                <li>
-                    <span>自我</span>
-                    <span>评价</span>
+                <li class="skill_list ">
+                    <div class="child_left skill_list4"><img src="img/skill4.png"/></div>
+                    <p class="child_right4">Node.JS</p>
+                </li>
+                <li class="skill_list ">
+                    <div class="child_left skill_list5"><img src="img/skill5.png"/></div>
+                    <p class="child_right5">jQuery/angular</p>
                 </li>
             </ul>
-            <div class="desc">
-                <p>姓名：惠宝同</p>
-
-                <p>年龄：25</p>
-
-                <p>毕业院校：榆林学院</p>
-
-                <p>学历：本科</p>
-            </div>
         </div>
-        <div class="swiper-slide page3">
-            <img src="img/yezi.png" class="one"/>
-            <img src="img/yezi.png" class="two"/>
-            <img src="img/yezi.png" class="tre"/>
-            <img src="img/yezi.png" class="for"/>
-            <img src="" alt=""/>
-            <ul class="classify clear">
-                <li>
-                    <span>基本</span>
-                    <span>信息</span>
-                </li>
-                <li class="bg">
-                    <span>专业</span>
-                    <span>技能</span>
-                </li>
-                <li>
-                    <span>兴趣</span>
-                    <span>爱好</span>
-                </li>
-                <li>
-                    <span>自我</span>
-                    <span>评价</span>
-                </li>
+        <div class="swiper-slide pageFor" trueId="page4">
+            <h2 class="experience">学习及工作经历</h2>
+            <div class="mid">
+                <div class="fir"></div>
+                <div class="two"></div>
+                <div class="thr"></div>
+                <div class="for"></div>
+            </div>
+            <ul class="left">
+                <li class="fir_left">2010.09-2014.06 &nbsp;&nbsp;陕西榆林学院</li>
+                <li class="thr_left">2014.10-2016.08 &nbsp;&nbsp;北京慧博和合</li>
             </ul>
-            <div class="box">
-                <span>PS</span>
-                <span>HTML+CSS</span>
-                <span>jQuery</span>
-                <span>swiper</span>
-                <span>github</span>
-                <span>JavaSctipt</span>
-                <span>Node.js</span>
-                <span>ES6</span>
-            </div>
-        </div>
-        <div class="swiper-slide page4">
-            <img src="img/xxx.jpg" alt=""/>
-            <ul class="classify clear">
-                <li>
-                    <span>基本</span>
-                    <span>信息</span>
-                </li>
-                <li>
-                    <span>专业</span>
-                    <span>技能</span>
-                </li>
-                <li class="bg">
-                    <span>兴趣</span>
-                    <span>爱好</span>
-                </li>
-                <li>
-                    <span>自我</span>
-                    <span>评价</span>
-                </li>
+            <ul class="right">
+                <li class="two_right"> 学习html+css,javascript</li>
+                <li class="for_right">前端开发</li>
             </ul>
-            <div class="desc">
-                <p class="foot">足球</p>
-                <p class="read">阅读</p>
-                <p class="song">听音乐</p>
-                <p class="shan">爬山</p>
-                <p class="other">研究稀奇古怪</p>
-            </div>
         </div>
-        <div class="swiper-slide page5">
-            <ul class="classify clear">
-                <li>
-                    <span>基本</span>
-                    <span>信息</span>
-                </li>
-                <li>
-                    <span>专业</span>
-                    <span>技能</span>
-                </li>
-                <li>
-                    <span>兴趣</span>
-                    <span>爱好</span>
-                </li>
-                <li  class="bg">
-                    <span>自我</span>
-                    <span>评价</span>
-                </li>
+
+        <div class="swiper-slide pageFiv" trueId="page5">
+            <h2 class="contact">联系方式</h2>
+            <div class="weixin"><img src="img/ewm.png"></div>
+            <ul class="info">
+                <li class="phone">Phone:15201691917</li>
+                <li class="QQ">QQ:877361655</li>
+                <li class="weChat">WeChat:877361655</li>
             </ul>
-            <div class="Personal-quote">
-                <p class="zh">开朗、向上、坚毅、团结、认真、严谨、适应力强</p>
-                <p class="english">I CAN !!!</p>
-            </div>
         </div>
-        <div class="swiper-slide page6">
-            <div class="ewm"></div>
-            <div class="font">
-                <p>Thanks !!!</p>
-                <p>If you are interested in me</p>
-                <p>Please contact me！</p>
-            </div>
-            <div class="tel">
-                电话：15201691917
-            </div>
-            <div class="qq">
-                QQ：877361655
-            </div>
+        <div class="swiper-slide pageSix" trueId="page6">
+            <h2 class="see" style="color: blue">感谢观看</h2>
+            <h3 class="see1" style="color: blue">THANK YOU</h3>
         </div>
     </div>
-
 </section>
 <section class="arrow"></section>
-
+<section class="audio">
+    <audio id="musicAudio" preload="none" loop src="audioFile/All%20My%20Feeling%20Were%20Fake.mp3"></audio>
+</section>
+<script charset="UTF-8" type="text/javascript" src="js/swiper.min.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js/fastClick.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+    FastClick.attach(document.body);
+</script>
 </body>
 </html>
-<script charset="utf-8" type="text/javascript" src="js/swiper.min.js"></script>
-<script charset="utf-8" type="text/javascript" src="js/fastClick.js"></script>
-<script charset="utf-8" type="text/javascript" src="js/index.js"></script>
